@@ -1,0 +1,1 @@
+{"name":"Local: index","url":"f:\\cpp\\array_questions\\ques3\\index.cpp","tests":[{"id":1611736461879,"input":"7\n10 7 4 6 8 10 11","output":""},{"id":1611736493478,"input":"7\n10 7 4 6 8 10 11","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\cpp\\array_questions\\ques3\\index.cpp","group":"local","local":true}
