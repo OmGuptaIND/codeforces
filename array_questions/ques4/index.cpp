@@ -23,7 +23,7 @@ int main(){
                 ans++;
             }
         }
-        if(j==n-1 && (arr[j]>max)){
+        if(j==n-1 && (arr[j] == max)){
             ans++;
         }
         j++;

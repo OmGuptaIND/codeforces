@@ -29,6 +29,7 @@ bool conflicts(int x, int y, int p, int q){
         the general idea for this func() is to check if we have 8 inputs with us and everyone of them is something other 
         than -1 and in the required value 0-7
     */
+
    if(x == p || y == q || x<-1 || x>7 || q<-1 || q>7 ){
        return false;
    }
@@ -52,11 +53,11 @@ bool isSafe(int queens[]){
             }
             if(i != j){                                                 //Do not check for the same iterate we are doing
                 int p_coor = queens[j];                                 //Get p_coor
-                int q_coor = j;
+                int q_coor = j;                                         //Get q_coor
                 if(x_coor == p_coor || y_coor == q_coor || x_coor+y_coor == p_coor+q_coor || x_coor-y_coor == p_coor-q_coor){ //All the logic
                     return false;
                 
-                }                                         //Get q_coor
+                }                                         
                 
             }
         }
